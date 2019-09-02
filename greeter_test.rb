@@ -12,7 +12,7 @@ describe Greeter do
     @request.get("abc").status.must_equal 404
   end
 
-  it "root path displays Hellow World by default" do
+  it "root path displays Hello World by default" do
     @request.get("/").body.must_include "Hello World!"
   end
 
