@@ -27,3 +27,4 @@ describe Greeter do
     response["Set-Cookie"].must_include "greet=Ruby"
   end
 end
+
